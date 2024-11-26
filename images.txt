@@ -2,9 +2,10 @@
 opengrok/docker
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-calico-kube-controllers
-calico
-coredns
+docker.io/calico/cni:v3.26.1
+docker.io/calico/node:v3.26.1
+docker.io/calico/kube-controllers:v3.26.1
+coredns/coredns:1.9.4
 postgres
 postgreql
 nginx
